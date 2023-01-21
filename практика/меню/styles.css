@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.menu{
+    border: 1px solid black;
+}
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.nav li a {
+     text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav li a:hover{
+    border-radius: 3px;
+    padding: 20px;
+    background-color: yellow;
+}
+.logo {
+    align-items:left ;
+}
