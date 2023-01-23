@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.box__inner {
+    text-align: center;
+}
+h1 {
+    max-width: 760px;
+    margin: 80px auto 40px;
+    line-height: 45px;
+}
+p {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    line-height: 30px;
+}
+.icon-box {
+    margin-bottom: 60px;
+}
+i {
+    color: aquamarine;
+    font-size: 50px;
+    margin: 0 55px;
+}

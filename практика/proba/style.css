@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    max-height: 200px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.box__inner {
+    align-items: center;
+    display: flex;
+    }
+
